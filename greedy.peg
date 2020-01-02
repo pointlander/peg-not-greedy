@@ -1,0 +1,14 @@
+package main
+
+type peg Peg {
+}
+
+Grammar
+  <- Required Optional? 
+
+Required
+  <- 'required' {dump("required")}
+
+Optional
+  <- 'optional' {dump("optional")}
+
